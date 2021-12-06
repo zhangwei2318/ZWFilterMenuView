@@ -220,7 +220,7 @@ extension ZWFilterMenuView: UITableViewDelegate, UITableViewDataSource {
         
     }
     
-    private func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return cellHeight
     }
     
