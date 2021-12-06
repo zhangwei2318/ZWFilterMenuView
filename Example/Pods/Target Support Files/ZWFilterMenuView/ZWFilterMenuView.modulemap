@@ -1,0 +1,6 @@
+framework module ZWFilterMenuView {
+  umbrella header "ZWFilterMenuView-umbrella.h"
+
+  export *
+  module * { export * }
+}

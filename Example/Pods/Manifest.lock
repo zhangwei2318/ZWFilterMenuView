@@ -1,0 +1,23 @@
+PODS:
+  - SnapKit (4.2.0)
+  - ZWFilterMenuView (0.1.0):
+    - SnapKit
+
+DEPENDENCIES:
+  - ZWFilterMenuView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  ZWFilterMenuView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  ZWFilterMenuView: 1da03ced18ad36af26a410cab0b2256d0a71fc93
+
+PODFILE CHECKSUM: 2e36f2f25a3c6bb75e2e73e1c5b5aa324ada12a0
+
+COCOAPODS: 1.11.2
