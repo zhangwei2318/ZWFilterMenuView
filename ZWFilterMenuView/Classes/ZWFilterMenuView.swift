@@ -136,7 +136,7 @@ public class ZWFilterMenuView: ZWBaseView, UIGestureRecognizerDelegate {
     }
 
     // 展示带数据的样式
-    func show(index: Int) {
+    public func show(index: Int) {
         showState = true
         
         frame = openFrame ?? CGRect.init(x: self.frame.origin.x, y: self.frame.origin.y, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height - self.frame.origin.y)
@@ -157,7 +157,7 @@ public class ZWFilterMenuView: ZWBaseView, UIGestureRecognizerDelegate {
     }
     
     // 动画消失
-    func dismiss() {
+    public func dismiss() {
         showState = false
         UIView.animate(withDuration: 0.25) {[weak self] in
             self?.backgroundColor = .black.withAlphaComponent(0)
