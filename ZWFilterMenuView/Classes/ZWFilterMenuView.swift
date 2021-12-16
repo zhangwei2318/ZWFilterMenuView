@@ -69,7 +69,7 @@ public class ZWFilterMenuView: ZWBaseView, UIGestureRecognizerDelegate {
     // 筛选条件数据
     public var filterStrArray: Array<Array<String>?>? {
         didSet {
-
+            tableView.reloadData()
         }
     }
     // title未选中文字颜色
